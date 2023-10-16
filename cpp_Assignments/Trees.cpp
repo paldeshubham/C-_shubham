@@ -51,6 +51,7 @@ node *create(char postfix[10])
             p->data = token;
             p->right = s.pop();
             p->left = s.pop();
+            s.push(p);
         }
     }return s.pop();
 }
