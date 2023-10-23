@@ -223,7 +223,7 @@ int main()
             }
             else
             {
-                cout << "Element " << temp->data <<" is found \n";
+                cout << "Element " << temp->data <<"is found \n";
             }
             break;
 
